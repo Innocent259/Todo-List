@@ -19,17 +19,18 @@ const task = [
   {
     description: 'task3',
     completed: false,
-    index: 3,
+    index: 4,
   },
   {
     description: 'task4',
     completed: false,
-    index: 4,
+    index: 3,
   },
 ];
 
 function iterateTasks() {
-  task.forEach((item) => {
+  const sortedTasks = task.sort((a, b) => a.index - b.index)
+  sortedTasks.forEach((item) => {
     listElement.innerHTML
         += `
         <div class="list-properties">
