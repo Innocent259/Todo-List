@@ -29,7 +29,7 @@ const task = [
 ];
 
 function iterateTasks() {
-  const sortedTasks = task.sort((a, b) => a.index - b.index)
+  const sortedTasks = task.sort((a, b) => a.index - b.index);
   sortedTasks.forEach((item) => {
     listElement.innerHTML
         += `
