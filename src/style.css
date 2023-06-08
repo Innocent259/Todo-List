@@ -80,10 +80,13 @@
 }
 
 #clear-btn {
-  height: 2.5rem;
+  height: 3rem;
+  width: 40%;
   border: none;
   margin-top: 1rem;
   background-color: #ddd;
+  margin: auto;
+  border-radius: 10px;
 }
 
 .line-1 {
