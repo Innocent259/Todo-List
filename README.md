@@ -44,7 +44,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://innocent259.github.io/Todo-List/dist/)
+[Demo](https://innocent259.github.io/Todo-List/dist/)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
