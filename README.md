@@ -87,7 +87,6 @@ Run npm dev to view the project on local host(npm run dev)
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Add and remove items]**
 - [ ] **[Add more CSS styles]**
 
 

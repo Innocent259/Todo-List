@@ -3,18 +3,20 @@
 }
 
 .bg-container {
-  background-color: #272727;
   color: #272a31;
   text-align: center;
 }
 
 .toDo-list {
+  max-height: 80vh;
   width: 60%;
   background-color: #fff;
   margin: auto;
   display: flex;
+  border: 1px solid #ddd;
   flex-direction: column;
   justify-content: space-between;
+  box-shadow: 3px -3px 3px rgba(0, 0, 0, 0.2);
 }
 
 .intro {
@@ -77,10 +79,12 @@
 }
 
 #clear-btn {
-  height: 2.5rem;
+  height: 3rem;
+  width: 40%;
   border: none;
-  margin-top: 1rem;
   background-color: #ddd;
+  margin: auto;
+  border-radius: 10px;
 }
 
 .line-1 {
