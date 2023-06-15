@@ -25,7 +25,6 @@ describe('addItem', () => {
     expect(storedList).toBeNull();
   });
 });
-
 describe('Remove item', () => {
   test('should not remove a task item if index is invalid', () => {
     const task = 'Do laundry';
