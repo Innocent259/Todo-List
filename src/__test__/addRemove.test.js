@@ -2,7 +2,7 @@
  * @jest-environment jsdom
  */
 
-import { addItem } from '../todoList.js';
+import { addItem, removeItem } from '../todoList.js';
 
 describe('addItem', () => {
   beforeEach(() => {
@@ -23,5 +23,19 @@ describe('addItem', () => {
     addItem('');
     const storedList = JSON.parse(localStorage.getItem('todoList'));
     expect(storedList).toBeNull();
+  });
+});
+
+describe('Remove item', () => {
+  test('should not remove a task item if index is invalid', () => {
+    const task = 'Do laundry';
+    addItem(task);
+    removeItem(1);
+    const storedList = JSON.parse(localStorage.getItem('todoList'));
+    expect(storedList).toHaveLength(1);
+    expect(storedList[0]).toMatchObject({
+      description: task,
+      completed: false,
+    });
   });
 });
