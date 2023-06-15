@@ -80,7 +80,13 @@ Run npm dev to view the project on local host(npm run dev)
 👤 **Innocent Ndahimana**
 
 - GitHub: [@innocent259](https://github.com/Innocent259)
-- LinkedIn: [Ndahimana Innocent](https://www.linkedin.com/in/innocent-ndahimana-b4b870245/)
+- LinkedIn: [Ndahimana Innocent](https://www.linkedin.com/in/innocent259/)
+
+👤 **Sana Tameem**
+
+- GitHub: [@innocent259](https://github.com/SanaTameem)
+- LinkedIn: [Ndahimana Innocent](https://www.linkedin.com/in/sana-tameem-a63b55240/)
+
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
